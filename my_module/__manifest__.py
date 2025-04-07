@@ -7,8 +7,9 @@
     Description text
     """,
     # data files always loaded at installation
-    'depends': ['base'],
+    'depends': ['base','sale'],
     'data': [
+        'views/sale_order_views.xml',
     ],
     # data files containing optionally loaded demonstration data
     'demo': [

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Inherit Form View to Modify it -->
+    <record id="inherit_sale_order_form_my_module" model="ir.ui.view">
+        <field name="name">inherit.sale.order.form.my.module</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook/page" position="before">
+                <page name="example_page" string="Example">
+                    <widget name="example"/>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
