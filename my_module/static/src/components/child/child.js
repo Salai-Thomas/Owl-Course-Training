@@ -4,7 +4,8 @@ export class Child extends Component{
     static template = "my_module.Child";
 
     static props = {
-    title:{type:String}
+    title:{type:String},
+    list:{type:Array},
     }
 }
 
