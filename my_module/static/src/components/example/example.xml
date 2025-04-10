@@ -2,5 +2,6 @@
     <t t-name="my_module.Example" owl="1">
         <p>Hellow OWL!</p>
         <button class="btn btn-primary">Click Me</button>
+        <Child title="'Component Of Child'"/>
     </t>
 </templates>
