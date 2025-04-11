@@ -2,6 +2,8 @@
     <t t-name="my_module.Example" owl="1">
         <p>Hellow OWL!</p>
         <button class="btn btn-primary">Click Me</button>
-        <Child title="'Component Of Child'" list="['Odoo','OWL','Salai Thomas']"/>
+        <Child title="'Component Of Child'" list="['Odoo','OWL','Salai Thomas']">
+            <span>This Slot From Child Component.That should be appear at Top.</span>
+        </Child>
     </t>
 </templates>

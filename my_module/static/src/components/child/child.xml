@@ -1,5 +1,6 @@
 <templates>
     <t t-name="my_module.Child" owl="1">
+        <t t-slot="default"/>
         <t t-out="props.title"/>
         <ol>
             <t t-foreach="props.list" t-as="list" t-key="list_index">
